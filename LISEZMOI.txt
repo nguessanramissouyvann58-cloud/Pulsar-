@@ -1,0 +1,20 @@
+PULSAR - paquet appli web (PWA)
+
+Contenu
+  index.html            le jeu
+  manifest.webmanifest  nom, icônes, plein écran, orientation portrait
+  sw.js                 mode hors ligne
+  icons/                icônes 192, 512 et maskable 512
+
+Étapes
+  1. Mets ce dossier en ligne en HTTPS (Netlify Drop, GitHub Pages...).
+     Les fichiers doivent être à la racine du site.
+  2. Ouvre le lien une fois avec connexion : le jeu et les polices se mettent en cache.
+  3. Va sur pwabuilder.com, colle le lien, lance l'analyse.
+  4. Choisis Android, génère le paquet et télécharge-le.
+  5. Installe le fichier .apk fourni dans le paquet (autorise l'installation
+     depuis cette source dans les réglages Android si le téléphone le demande).
+
+Remarque
+  Garde bien la clé de signature fournie par PWABuilder si tu veux
+  mettre à jour l'appli plus tard.
